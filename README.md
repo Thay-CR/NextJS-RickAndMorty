@@ -22,7 +22,6 @@ Knowledgements of React and Typescript</p>
 ## Funcionalities
 
 :heavy_check_mark: `Funcionalitie 1:` Characters list
-[documentation URL](#documentation-url)
 
 :heavy_check_mark: `Funcionalitie 2:` Find character by id
 
@@ -30,7 +29,7 @@ Knowledgements of React and Typescript</p>
 
 :heavy_check_mark: `Funcionalitie 4:` 404 error
 
-:heavy_check_mark: `Funcionalitie 5:` A little responsiveness
+:heavy_check_mark: `Funcionalitie 5:` Responsive
 
 
 ###
