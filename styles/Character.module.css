@@ -1,0 +1,118 @@
+.character_container {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  color: #333;
+  padding: 0.3em;
+  margin: 0.8em auto;
+  width: 200px;
+}
+
+.character_container h3 {
+  margin: 0.6em auto;
+  font-size: 1.2em;
+}
+
+.types_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.types_container_loading {
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  padding: 0.6em 1em;
+  color: #fff;
+  background-color: #000;
+  margin-right: 0.3;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.data_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+
+.data_container div {
+  margin: 0.5em 0;
+  padding: 0 0.3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btngender {
+  text-decoration: none;
+  background-color: #448c1c ;
+  color: #222;
+  border-radius: 5px;
+  transition: 0.4s;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.h4gender{
+  background-color: #448c1c ;
+}
+
+.btnstatus {
+  text-decoration: none;
+  color: #222;
+  background-color: #6ca25e ;
+  border-radius: 5px;
+  transition: 0.4s;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.h4status{
+  background-color: #6ca25e ;
+}
+
+.btnspecies {
+  text-decoration: none;
+  color: #222;
+  background-color: #fff ;
+  border-radius: 5px;
+  transition: 0.4s;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.h4species{
+  background-color: #fff ;
+}
+
+@media only screen and (max-width: 370px) {
+  
+  .data_container {
+    display:block;
+  }
+  .btngender {
+    width: 180px;
+  }
+  .btnspecies {
+    width: 180px;
+  }
+  .btnstatus {
+    width: 180px;
+  }
+}

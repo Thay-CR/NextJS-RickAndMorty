@@ -1,0 +1,50 @@
+.divPages {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.divPages .linkComponent {display: inline;}
+
+.divPages .linkComponent {
+    color: black;
+    float: left;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+.currentPage {
+    background-color: #fff;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+.commonPage {
+    background-color: #474a51;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: #fff;
+    opacity: 0.5;
+    font-weight: bolder;
+}
+
+.nextAndPrevious {
+    background-color: #fff;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    float: left;
+    padding: 2px 4px;
+    text-decoration: none;
+    display: inline;
+    font-weight: bolder;
+    opacity: 0.8;
+}

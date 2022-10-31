@@ -1,0 +1,11 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e5d29f;
+}
+
+.main-container {
+  min-height: 70vh;
+}

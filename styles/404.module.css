@@ -1,0 +1,36 @@
+.component{
+    align-items: center;
+    justify-content: center;
+}
+
+.number{
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+.first{
+    font-size: 40px;
+    color: #3a4767;
+    text-align: center;
+    margin: 25px;
+}
+
+.second{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.link{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.last{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
